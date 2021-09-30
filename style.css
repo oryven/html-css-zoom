@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    background-color: black;
+    height: calc(100vh - 100px);
+    display: flex;
+    padding: 40px 50px;
+}
+
+footer {
+    height: 100px;
+    background-color: darkslategray;
+}
+
+.cl-sx,.cl-dx {
+    background-color: darkturquoise;
+    height: 100%;
+    width: 5%;
+}
+
+.cl-center {
+    background-color: dodgerblue;
+    height: 100%;
+    width: 90%;
+}
+
