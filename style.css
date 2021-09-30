@@ -17,10 +17,6 @@ main {
     padding: 40px 50px;
 }
 
-main i {
-    font-size: 12px;
-}
-
 .name  {
     background-color:rgba(5, 5, 5, 0.5);
     width: 35%;
@@ -30,11 +26,13 @@ main i {
 .cl-dx i {
     color:lightseagreen;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .cl-sx i {
     color: lightslategray;
     font-size: 40px;
+    cursor: pointer;
 }
 
 .cl-sx, .cl-dx {
@@ -74,7 +72,10 @@ footer {
 
 footer i {
     font-size: 20px;
+    cursor: pointer;
 }
+
+
 
 .nav-sx,.nav-center,.nav-dx {
     display: flex;
